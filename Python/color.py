@@ -1,4 +1,4 @@
-# Python code for Multiple Color Detection
+# Python code for TLight
 
 
 import numpy as np
@@ -98,7 +98,7 @@ while (1):
             ArduinoSerial.write(b'0')
 
 
-    cv2.imshow("Multiple Color Detection in Real-TIme", imageFrame)
+    cv2.imshow("TLight", imageFrame)
     if cv2.waitKey(10) & 0xFF == ord('q'):
         cap.release()
         cv2.destroyAllWindows()
